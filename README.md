@@ -2,6 +2,8 @@
 
 一个RecyclerView分割线
 
+目前支持:LinearLayoutManager/GridLayoutManager
+
 看demo
 
 #### demo图
