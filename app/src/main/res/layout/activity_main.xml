@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gloomyer.myapplication.StickyNavLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/AppCompatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#aaffaa"
+        android:gravity="center"
+        android:text="软件介绍"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/mTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ddffaa" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.gloomyer.myapplication.StickyNavLayout>
